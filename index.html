@@ -1,0 +1,47 @@
+<canvas id="meuCanvas" width="800" height="600"></canvas>
+
+<script>
+
+// inicio do desenho
+var canvas = document.getElementById("meuCanvas");
+var context = canvas.getContext("2d");
+
+// cor do preenchimento
+context.fillStyle = "#0017c9";
+
+// cor do contorno
+context.strokeStyle = "#ff0808";
+
+// retangulo preenchido (lingua)
+context.fillRect(0, 0, 90, 60);
+
+// retangulo contorno (boca)
+context.strokeRect(130, 200, 150, 100);
+
+// elipse preenchida (olho direito)
+context.beginPath();
+context.ellipse(300, 100, 50, 75, 0, 0, 2 * Math.PI);
+context.fill();
+
+context.fillStyle = "#00c917";
+    
+// elipse contorno (olho esquerdo)
+context.beginPath();
+context.ellipse(100, 100, 50, 75, 0, 0, 2 * Math.PI);
+context.fill();
+	
+context.beginPath();
+context.moveTo(0,0);
+context.lineTo(180,180);
+context.stroke();
+    
+context.beginPath();
+context.moveTo(180,0);
+context.lineTo(0,180);
+context.stroke();
+
+context.fillStyle = 'magenta'
+context.font = '48px comic sans ms';
+context.fillText("wow", 50, 50);
+    
+</script>
