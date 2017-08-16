@@ -30,16 +30,21 @@ context.beginPath();
 context.ellipse(100, 100, 50, 75, 0, 0, 2 * Math.PI);
 context.fill();
 	
+// linha
 context.beginPath();
 context.moveTo(0,0);
 context.lineTo(180,180);
 context.stroke();
-    
-context.beginPath();
-context.moveTo(180,0);
-context.lineTo(0,180);
-context.stroke();
 
+// triangulo
+context.beginPath();
+context.moveTo(120,0);
+context.lineTo(0,120);
+context.lineTo(120,120);
+context.closePath();
+context.fill();
+
+// texto
 context.fillStyle = 'magenta'
 context.font = '48px comic sans ms';
 context.fillText("wow", 50, 50);
