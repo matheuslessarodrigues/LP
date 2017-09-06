@@ -3,20 +3,20 @@ Scripts feitos em LP 1003
 
 ## Conceitos Bacanas
 
-- html
-  - Conteúdo do site. Desde textos e imagens até códigos
+### html
+Conteúdo do site. Desde textos e imagens até códigos
 
-- javascript
-  - Linguagem de programação que a gente usa. Com ela é possível executar códigos pelo navegador.
+### javascript
+Linguagem de programação que a gente usa. Com ela é possível executar códigos pelo navegador.
 
-- canvas
-  - Onde a gente desenha. A tela do pintor.
-  - como usa:
-  - <canvas id="meuCanvas" width="800" height="600"></canvas>
-  - <script>
-  - var canvas = document.getElementById("meuCanvas");
-  - // outros códigos vão aqui
-  - </script>
+### canvas
+Onde a gente desenha. A tela do pintor.
+como usa:
+<canvas id="meuCanvas" width="800" height="600"></canvas>
+<script>
+var canvas = document.getElementById("meuCanvas");
+// outros códigos vão aqui
+</script>
 
 - context
   - O carinha que desenha!
