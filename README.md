@@ -27,11 +27,11 @@ como usa:
 var context = canvas.getContext("2d");
 ```
 
-### rectFill
+### fillRect
 O DESENHO!
 como usa:
 ```javascript
-context.rectFill(posicaoX, posicaoY, largura, altura);
+context.fillRect(posicaoX, posicaoY, largura, altura);
 // Lembrando que a posição (0,0) começa no canto *superior esquerdo* da tela.
 ```
 
@@ -49,5 +49,5 @@ como usa:
 ```javascript
 var nomeDaVariavel = "texto"; // o "var" indica que estamos criando a variável
 var outraVariavel = 42;
-context.rectFill( outraVariavel, 0, 50, 50 ); // apenas escrever o nome da variável faz a gente usar seu valor
+context.fillRect( outraVariavel, 0, 50, 50 ); // apenas escrever o nome da variável faz a gente usar seu valor
 ```
