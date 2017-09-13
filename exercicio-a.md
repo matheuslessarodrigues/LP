@@ -5,6 +5,6 @@
 5. apenas usar 3 variáveis no total
 6. quando o triangulo chegar na ponta da tela, ele volta
 
-imagem: https://imgur.com/a/NIpRY
+[imagem](https://imgur.com/a/NIpRY)
 
 códigos passados: https://github.com/matheuslessarodrigues/LP-Codes
