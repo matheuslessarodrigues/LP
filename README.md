@@ -62,6 +62,7 @@ var minhaVariavel = parseInt( prompt( "texto que mostra pro usuario" ) ); // apa
 
 ### animação
 Estrutura base para fazer desenhos animados com javascript
+Exemplo completo [aqui](https://github.com/matheuslessarodrigues/LP-Codes/blob/master/animation.html).
 ```javascript
 var canvas = document.getElementById("meuCanvas");
 var context = canvas.getContext("2d");
