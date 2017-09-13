@@ -34,6 +34,7 @@ como usa:
 context.fillRect(posicaoX, posicaoY, largura, altura);
 // Lembrando que a posição (0,0) começa no canto *superior esquerdo* da tela.
 ```
+Exemplo completo com outras formas básicas [aqui](https://github.com/matheuslessarodrigues/LP-Codes/blob/master/desenhos-base.html)
 
 ### fillStyle
 A cor do desenho
@@ -62,7 +63,6 @@ var minhaVariavel = parseInt( prompt( "texto que mostra pro usuario" ) ); // apa
 
 ### animação
 Estrutura base para fazer desenhos animados com javascript
-Exemplo completo [aqui](https://github.com/matheuslessarodrigues/LP-Codes/blob/master/animation.html).
 ```javascript
 var canvas = document.getElementById("meuCanvas");
 var context = canvas.getContext("2d");
@@ -85,3 +85,4 @@ function draw() {
 }
 draw();
 ```
+Exemplo completo [aqui](https://github.com/matheuslessarodrigues/LP-Codes/blob/master/animation.html).
