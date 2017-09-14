@@ -1,10 +1,10 @@
 1. desenhar triangulo onde x = 50, y = 50
-2. prompt pra pegar o x
+1. prompt pra pegar o x
   - x altera a posição x do triangulo inteiro!
-3. triangulo se move pra direita
-4. prompt pra alterar a velocidade horizontal
-5. apenas usar 3 variáveis no total
-6. quando o triangulo chegar na ponta da tela, ele volta
+1. triangulo se move pra direita
+1. prompt pra alterar a velocidade horizontal
+1. apenas usar 3 variáveis no total
+1. quando o triangulo chegar na ponta da tela, ele volta
 
 [imagem](https://imgur.com/a/NIpRY)
 
