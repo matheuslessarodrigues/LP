@@ -7,11 +7,14 @@ Scripts feitos em LP 1003
 Conteúdo do site. Desde textos e imagens até códigos
 
 ### javascript
-Linguagem de programação que a gente usa. Com ela é possível executar códigos pelo navegador.
+Linguagem de programação que a gente usa.
+
+Com ela é possível executar códigos pelo navegador.
 
 ### canvas
 Onde a gente desenha. A tela do pintor.
-como usa:
+
+Exemplo:
 ```html
 <canvas id="meuCanvas" width="800" height="600"></canvas>
 <script>
@@ -22,14 +25,16 @@ var canvas = document.getElementById("meuCanvas");
 
 ### context
 O carinha que desenha!
-como usa:
+
+Exemplo:
 ```javascript
 var context = canvas.getContext("2d");
 ```
 
 ### fillRect
 O DESENHO!
-como usa:
+
+Exemplo:
 ```javascript
 context.fillRect(posicaoX, posicaoY, largura, altura);
 // Lembrando que a posição (0,0) começa no canto *superior esquerdo* da tela.
@@ -38,7 +43,8 @@ Exemplo completo com outras formas básicas [aqui](https://github.com/matheusles
 
 ### fillStyle
 A cor do desenho
-como usa:
+
+Exemplo:
 ```javascript
 context.fillStyle = "red"; // a partir dessa linha, todos os desenhos são vermelhos
 // Lembrando que o fillStyle apenas surte efeitos nos comandos de desenho que vêm *depois* dele.
@@ -46,7 +52,8 @@ context.fillStyle = "red"; // a partir dessa linha, todos os desenhos são verme
 
 ### variável
 Uma _caixa_ onde você pode guardar _valores_
-como usa:
+
+Exemplo:
 ```javascript
 var nomeDaVariavel = "texto"; // o "var" indica que estamos criando a variável
 var outraVariavel = 42;
@@ -55,7 +62,8 @@ context.fillRect( outraVariavel, 0, 50, 50 ); // apenas escrever o nome da vari�
 
 ### prompt
 Pegar valores do usuário
-como usa:
+
+Exemplo:
 ```javascript
 var minhaVariavel = parseInt( prompt( "texto que mostra pro usuario" ) ); // aparecerá uma caixa pro usuário escrever um valor
 // minhaVariavel agora tem o valor que o usuário escreveu
@@ -89,6 +97,7 @@ Exemplo completo [aqui](https://github.com/matheuslessarodrigues/LP-Codes/blob/m
 
 ### condições (_if_)
 Controla o fluxo do programa. O código dentro das chaves (_{}_) apenas é executado caso a condição dentro do _if_ ser verdadeira.
+
 Exemplo:
 ```javascript
 var num = parseInt(prompt("Escreve um número aí")); // pega um número do usuário
