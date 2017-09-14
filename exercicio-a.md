@@ -1,6 +1,6 @@
 1. desenhar triangulo onde x = 50, y = 50
 1. prompt pra pegar o x
-  - x altera a posição x do triangulo inteiro!
+  * x altera a posição x do triangulo inteiro!
 1. triangulo se move pra direita
 1. prompt pra alterar a velocidade horizontal
 1. apenas usar 3 variáveis no total
