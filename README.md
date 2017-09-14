@@ -88,7 +88,7 @@ draw();
 Exemplo completo [aqui](https://github.com/matheuslessarodrigues/LP-Codes/blob/master/animation.html).
 
 ### condições (_if_)
-Controla o fluxo do programa. O código dentro das chaves (_{}_) apenas é executado caso a condição dentro do _if_ é verdadeira.
+Controla o fluxo do programa. O código dentro das chaves (_{}_) apenas é executado caso a condição dentro do _if_ ser verdadeira.
 Exemplo:
 ```javascript
 var num = parseInt(prompt("Escreve um número aí")); // pega um número do usuário
