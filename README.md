@@ -107,4 +107,9 @@ if( num < 100 )
   // que o usuário escrever for menor que 100
   context.fillRect(50, 50, 100,100);
 }
+else
+{
+  // esse trecho de código executa apenas
+  // quando a condição for falsa
+}
 ```
