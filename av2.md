@@ -2,7 +2,7 @@
 
 ## Cenário Passando
 
-Um retângulo e um triangulo que se movem para a direita (só direita).
+Um retângulo e um circulo que se movem para a direita (só direita).
 
 Quando chegam na ponta da tela, eles devem voltar para o início.
 
