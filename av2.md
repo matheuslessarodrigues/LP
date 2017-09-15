@@ -15,7 +15,7 @@ O retângulo e o triângulo se movem com velocidades diferentes.
 
 ## Ajuda
 
-[Material de javascript](matheuslessarodrigues.github.io/LP-Codes/)
+[Material de javascript](https://matheuslessarodrigues.github.io/LP-Codes/)
 
 ## Logística
 
