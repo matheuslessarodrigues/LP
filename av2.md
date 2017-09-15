@@ -7,7 +7,7 @@ Um retângulo e um triangulo que se movem para a direita (só direita).
 Quando chegam na ponta da tela, eles devem voltar para o início.
 
 Toda vez que eles voltam, eles alternam de cor.
-    - Entre vermelho e azul por exemplo
+- Entre vermelho e azul por exemplo
     
 ## Extras
 
