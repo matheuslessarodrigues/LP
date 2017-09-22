@@ -142,7 +142,7 @@ if( x >= 3 )
 
 - Menor que (<=)
 ```javascript
-if( x < 3 )
+if( x <= 3 )
 {
   // executa aqui quando x é menor ou igual a 3
 }
