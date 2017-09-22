@@ -113,3 +113,37 @@ else
   // quando a condição for falsa
 }
 ```
+
+#### tipos de condição
+
+- Igual a (==)
+```javascript
+if( x == 3 )
+{
+  // executa aqui quando x é igual 3
+}
+```
+
+- Maior que (>)
+```javascript
+if( x > 3 )
+{
+  // executa aqui quando x é maior que 3
+}
+```
+
+- Maior ou igual a (>=)
+```javascript
+if( x >= 3 )
+{
+  // executa aqui quando x é maior ou igual a 3
+}
+```
+
+- Menor que (<=)
+```javascript
+if( x < 3 )
+{
+  // executa aqui quando x é menor ou igual a 3
+}
+```
