@@ -147,3 +147,21 @@ if( x <= 3 )
   // executa aqui quando x é menor ou igual a 3
 }
 ```
+
+### input de teclado
+
+Código pra pegar eventos do teclado. Sobre os parâmetros de `addEventListener`: `"keydown"` significa executar código quando uma tecla é pressionada; `onKeyDown` é o bloco de código que é executado quando o evento acontece (uma tecla é pressionada).
+
+```javascript
+canvas.addEventListener( "keydown", onKeyDown, true );
+
+function onKeyDown( e )
+{
+  // Esse código executa quando apertam uma tecla
+  
+  if( e.keyCode == 65 ) // Testa se o cara apertou a tecla 'A'
+  {
+    alert( "apertou a tecla 'A'" );
+  }
+}
+```
