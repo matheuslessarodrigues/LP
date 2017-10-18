@@ -98,8 +98,8 @@ draw();
 ```
 Exemplo completo [aqui](https://github.com/matheuslessarodrigues/LP-Codes/blob/master/animation.html).
 
-### condições (_if_)
-Controla o fluxo do programa. O código dentro das chaves (_{}_) apenas é executado caso a condição dentro do _if_ ser verdadeira.
+### condições `if`
+Controla o fluxo do programa. O código dentro das chaves `{}` apenas é executado caso a condição dentro do `if` ser verdadeira.
 
 Exemplo:
 ```javascript
@@ -119,7 +119,7 @@ else
 
 #### tipos de condição
 
-- Igual a (==)
+- Igual a `==`
 ```javascript
 if( x == 3 )
 {
@@ -127,7 +127,7 @@ if( x == 3 )
 }
 ```
 
-- Maior que (>)
+- Maior que `>`
 ```javascript
 if( x > 3 )
 {
@@ -135,7 +135,7 @@ if( x > 3 )
 }
 ```
 
-- Maior ou igual a (>=)
+- Maior ou igual a `>=`
 ```javascript
 if( x >= 3 )
 {
@@ -143,7 +143,7 @@ if( x >= 3 )
 }
 ```
 
-- Menor que (<=)
+- Menor que `<=`
 ```javascript
 if( x <= 3 )
 {
