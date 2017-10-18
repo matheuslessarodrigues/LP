@@ -71,7 +71,9 @@ var minhaVariavel = parseInt( prompt( "texto que mostra pro usuario" ) ); // apa
 
 ### animação
 Estrutura base para fazer desenhos animados com javascript
-```javascript
+```html
+<canvas id="meuCanvas" width="800" height="600"></canvas>
+<script>
 var canvas = document.getElementById("meuCanvas");
 var context = canvas.getContext("2d");
 
@@ -92,6 +94,7 @@ function draw() {
   requestAnimationFrame(draw);
 }
 draw();
+</script>
 ```
 Exemplo completo [aqui](https://github.com/matheuslessarodrigues/LP-Codes/blob/master/animation.html).
 
@@ -151,6 +154,10 @@ if( x <= 3 )
 ### input de teclado
 
 Código pra pegar eventos do teclado. Sobre os parâmetros de `addEventListener`: `"keydown"` significa executar código quando uma tecla é pressionada (também pode usar `"keyup"` pra saber quando soltam uma tecla); `onKeyDown` é o bloco de código definido por você que é executado quando o evento acontece (uma tecla é pressionada).
+
+**IMPORTANTE**
+
+Esses códigos ficam *antes* do `function draw()´.
 
 ```javascript
 window.addEventListener( "keydown", onKeyDown, true );
