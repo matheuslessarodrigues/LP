@@ -1,0 +1,35 @@
+<canvas id="meuCanvas" width="800" height="600"></canvas>
+<script>
+var canvas = document.getElementById("meuCanvas");
+var context = canvas.getContext("2d");
+
+// declaração de variáveis ficam aqui
+var x = 0;
+    
+window.addEventListener( "keydown", onKeyDown, true );
+function onKeyDown( e )
+{
+  // Todo esse código entre chaves executa quando apertam uma tecla
+  
+  if( e.keyCode == 65 ) // Testa se o cara especificamente apertou a tecla 'A'
+  {
+    x = x - 10;
+  }
+  else if( e.keyCode == 68 ) // Testa se o cara especificamente apertou a tecla 'D'
+  {
+    x = x + 10;
+  }
+}
+
+function draw() {
+  // limpa o canvas  
+  context.clearRect(0,0,800,600);
+
+  // desenha um quadrado na posição determinada pela variável x
+  context.fillRect(x, 50, 100,100);
+
+  // prepara pra desenhar novamente
+  requestAnimationFrame(draw);
+}
+draw();
+</script>
