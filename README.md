@@ -157,7 +157,7 @@ Código pra pegar eventos do teclado. Sobre os parâmetros de `addEventListener`
 
 **IMPORTANTE**
 
-Esses códigos ficam *antes* do `function draw()´.
+Esses códigos ficam *antes* do `function draw()`.
 
 ```javascript
 window.addEventListener( "keydown", onKeyDown, true );
