@@ -176,3 +176,5 @@ function onKeyDown( e )
   }
 }
 ```
+
+Exemplo completo [aqui](https://github.com/matheuslessarodrigues/LP-Codes/blob/master/input.html).
