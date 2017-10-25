@@ -21,3 +21,7 @@ Fazer o círculo rebater nas bordas da tela.
 
 - Grupos de 2 a 4 alunos
 - Entregar através do form: [link](https://goo.gl/forms/7fLz8eimy3XEdEJp2)
+
+## Links Bacanas e Colas
+
+- lessa.codes/LP
