@@ -25,19 +25,23 @@ Fazer o círculo rebater nas bordas da tela.
 ## Códigos de teclas
 
 - 'A': `65`
-  - ```javascript
+  - exemplo:
+  ```javascript
   `if (e.keyCode == 65) // A`
   ```
 - 'L': `76`
-  - ```javascript
+  - exemplo:
+  ```javascript
   `if (e.keyCode == 76) // L`
   ```
 - 'O': `79`
-  - ```javascript
+  - exemplo:
+  ```javascript
   `if (e.keyCode == 79) // O`
   ```
 - 'Q': `81`
-  - ```javascript
+  - exemplo:
+  ```javascript
   `if (e.keyCode == 81) // Q`
   ```
 
