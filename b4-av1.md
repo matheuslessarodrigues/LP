@@ -22,6 +22,13 @@ Fazer o círculo rebater nas bordas da tela.
 - Grupos de 2 a 4 alunos
 - Entregar através do form: [link](https://goo.gl/forms/7fLz8eimy3XEdEJp2)
 
+## Códigos de teclas
+
+- 'A': `65` (`if (e.keyCode == 65) // A`)
+- 'L': `76` (`if (e.keyCode == 76) // L`)
+- 'O': `79` (`if (e.keyCode == 79) // O`)
+- 'Q': `81` (`if (e.keyCode == 81) // Q`)
+
 ## Links Bacanas e Colas
 
 - Resumão de javascript: [lessa.codes/LP](lessa.codes/LP)
