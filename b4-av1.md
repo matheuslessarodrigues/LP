@@ -24,4 +24,5 @@ Fazer o círculo rebater nas bordas da tela.
 
 ## Links Bacanas e Colas
 
-- lessa.codes/LP
+- Resumão de javascript: [lessa.codes/LP](lessa.codes/LP)
+- Exemplo completo de código com input: [https://github.com/matheuslessarodrigues/LP/blob/master/input.html](https://github.com/matheuslessarodrigues/LP/blob/master/input.html)
