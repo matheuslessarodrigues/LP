@@ -43,7 +43,7 @@ Exemplo:
 context.fillRect(posicaoX, posicaoY, largura, altura);
 // Lembrando que a posição (0,0) começa no canto *superior esquerdo* da tela.
 ```
-Exemplo completo com outras formas básicas [aqui](https://github.com/matheuslessarodrigues/LP-Codes/blob/master/desenhos-base.html)
+Exemplo completo com outras formas básicas [aqui](desenhos-base.html)
 
 ### fillStyle
 A cor do desenho
@@ -100,7 +100,7 @@ function draw() {
 draw();
 </script>
 ```
-Exemplo completo [aqui](https://github.com/matheuslessarodrigues/LP-Codes/blob/master/animation.html).
+Exemplo completo [aqui](animation.html).
 
 ### condições `if`
 Controla o fluxo do programa. O código dentro das chaves `{}` apenas é executado caso a condição dentro do `if` ser verdadeira.
@@ -181,7 +181,7 @@ function onKeyDown( e )
 }
 ```
 
-Exemplo completo [aqui](https://github.com/matheuslessarodrigues/LP-Codes/blob/master/input.html).
+Exemplo completo [aqui](input.html).
 
 ### Imagens
 
@@ -199,6 +199,8 @@ minhaImagem.src = "imagens/uma_imagem_qualquer.png";
 
 Repare que ali estamos carregando uma imagem chamada `uma_imagem_qualquer.png` que se encontra dentro da pasta `imagens`.
 Então, se você mover essa imagem para outro lugar, lembre-s de atualizar o código para o programa continuar sabendo onde ela está.
+
+Exemplo completo [aqui](imagem.html).
 
 ### Funções
 
