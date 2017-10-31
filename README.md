@@ -205,7 +205,7 @@ Então, se você mover essa imagem para outro lugar, lembre-s de atualizar o có
 
 Exemplo completo [aqui](https://github.com/matheuslessarodrigues/LP/blob/master/imagem.html).
 
-### Funções
+### funções
 
 Uma função é um código que pode ser repetido quando quisermos. É comparável a um vídeo onde gravamos algo que aconteceu uma vez e,
 depois, podemos dar play quantas vezes quisermos.
