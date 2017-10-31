@@ -46,7 +46,7 @@ Exemplo:
 context.fillRect(posicaoX, posicaoY, largura, altura);
 // Lembrando que a posição (0,0) começa no canto *superior esquerdo* da tela.
 ```
-Exemplo completo com outras formas básicas [aqui](desenhos-base.html)
+Exemplo completo com outras formas básicas [aqui](https://github.com/matheuslessarodrigues/LP/blob/master/desenhos-base.html)
 
 ### fillStyle
 A cor do desenho
@@ -103,7 +103,7 @@ function draw() {
 draw();
 </script>
 ```
-Exemplo completo [aqui](animation.html).
+Exemplo completo [aqui](https://github.com/matheuslessarodrigues/LP/blob/master/animation.html).
 
 ### condições `if`
 Controla o fluxo do programa. O código dentro das chaves `{}` apenas é executado caso a condição dentro do `if` ser verdadeira.
@@ -184,7 +184,7 @@ function onKeyDown( e )
 }
 ```
 
-Exemplo completo [aqui](input.html).
+Exemplo completo [aqui](https://github.com/matheuslessarodrigues/LP/blob/master/input.html).
 
 ### Imagens
 
@@ -203,7 +203,7 @@ minhaImagem.src = "imagens/uma_imagem_qualquer.png";
 Repare que ali estamos carregando uma imagem chamada `uma_imagem_qualquer.png` que se encontra dentro da pasta `imagens`.
 Então, se você mover essa imagem para outro lugar, lembre-s de atualizar o código para o programa continuar sabendo onde ela está.
 
-Exemplo completo [aqui](imagem.html).
+Exemplo completo [aqui](https://github.com/matheuslessarodrigues/LP/blob/master/imagem.html).
 
 ### Funções
 
@@ -252,9 +252,10 @@ controle se a gente não tomar cuidado. Um código mal organizado pode dificulta
 alterações.
 
 Por isso, aqui vai uma sugestão de como organizar tudinho e não se perder quando estiver fazendo seu jogo em
-javascript: [CÓDIGO BASE PRA FAZER UM JOGO](game.html).
+javascript: [CÓDIGO BASE PRA FAZER UM JOGO](https://github.com/matheuslessarodrigues/LP/blob/master/game.html).
 
 **IMPORTANTE**
+
 Não se esqueça que um jogo envolve imagens (pra ficar bonito né). Então esteja certo de que está baixando também
 a pasta com as imagens do jogo!
 
