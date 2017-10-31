@@ -1,0 +1,83 @@
+<canvas id="meuCanvas" width="800" height="600" style="border:1px solid #000000;"></canvas>
+<script>
+	var canvas = document.getElementById("meuCanvas");
+	var context = canvas.getContext("2d");
+
+	// declaração de variáveis
+	var moveEsquerda = false;
+	var moveDireita = false;
+
+	var marioX = 100;
+	var marioVelX = 5;
+	var marioImagem = new Image();
+	marioImagem.src = "imagens/mario.png";
+
+	var retanguloX = 0;
+	var retanguloVelX = 1;
+
+	document.addEventListener("keydown", onKeyDown);
+	document.addEventListener("keyup", onKeyUp);
+
+	// chamada do loop principal do jogo.
+	game();
+
+	// função do loop do jogo
+	function game() {
+		// limpa a tela
+		context.clearRect(0, 0, 800, 600);
+
+		atualizacaoLogica();
+		atualizacaoGrafica();
+
+		// se prepara pra desnhar tudo de novo
+		requestAnimationFrame(game);
+	}
+
+	// função para fazer algo quando um botão é pressionado
+	function onKeyDown(event) {
+		if (event.keyCode == 39) {
+			moveDireita = true;
+		}
+
+		if (event.keyCode == 37) {
+			moveEsquerda = true;
+		}
+	}
+
+	// função para fazer algo quando um botão é solto
+	function onKeyUp(event) {
+		if (event.keyCode == 39) {
+			moveDireita = false;
+		}
+
+		if (event.keyCode == 37) {
+			moveEsquerda = false;
+		}
+	}
+
+	// função para realizar as atualizações lógicas
+	function atualizacaoLogica() {
+		atualizaRetangulo();
+		atualizaMario();
+	}
+
+	function atualizaRetangulo() {
+		retanguloX = retanguloX + retanguloVelX;
+	}
+
+	function atualizaMario() {
+		if (moveDireita == true) {
+			marioX = marioX + marioVelX;
+		}
+
+		if (moveEsquerda == true) {
+			marioX = marioX - marioVelX;
+		}
+	}
+
+	// função para realizar as atualizações gráficas
+	function atualizacaoGrafica() {
+		context.fillRect(retanguloX, 100, 80, 80);
+		context.drawImage(marioImagem, marioX, 300);
+	}
+</script>
