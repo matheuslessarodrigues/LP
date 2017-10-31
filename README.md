@@ -247,7 +247,7 @@ controle se a gente não tomar cuidado. Um código mal organizado pode dificulta
 alterações.
 
 Por isso, aqui vai uma sugestão de como organizar tudinho e não se perder quando estiver fazendo seu jogo em
-javascript: [código base de jogo](game.html).
+javascript: [CÓDIGO BASE PRA FAZER UM JOGO](game.html).
 
 **IMPORTANTE**
 Não se esqueça que um jogo envolve imagens (pra ficar bonito né). Então esteja certo de que está baixando também
