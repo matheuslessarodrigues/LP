@@ -2,8 +2,11 @@
 Scripts feitos em LP 1003
 
 ## Avaliações
+- B3
+  - ~~[AV2](b3-av2.md)~~
+  - ~~[AV3](b3-av3.md)~~
 - B4
-  - [AV1](http://lessa.codes/LP/b4-av1)
+  - [AV1](b4-av1.md)
 
 ## Conceitos Bacanas
 
