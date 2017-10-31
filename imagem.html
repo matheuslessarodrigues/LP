@@ -1,0 +1,23 @@
+<canvas id="meuCanvas" width="800" height="600" style="border:1px solid #000000;"></canvas>
+<script>
+	var canvas = document.getElementById("meuCanvas");
+	var context = canvas.getContext("2d");
+
+	// carrega a imagem do Mario (imagem dentro da pasta "imagens")
+	var marioImagem = new Image();
+	marioImagem.src = "imagens/mario.png";
+
+	game();
+
+	// função do loop do jogo
+	function game() {
+		// limpa a tela
+		context.clearRect(0, 0, 800, 600);
+
+		// desenha a imagem
+		context.drawImage(marioImagem, 200, 300);
+
+		// se prepara pra desnhar tudo de novo
+		requestAnimationFrame(game);
+	}
+</script>
