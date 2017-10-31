@@ -1,7 +1,7 @@
 # LP
 Scripts feitos em LP 1003
 
-# Avaliações
+## Avaliações
 - B4
   - [AV1](http://lessa.codes/LP/b4-av1)
 
@@ -182,3 +182,74 @@ function onKeyDown( e )
 ```
 
 Exemplo completo [aqui](https://github.com/matheuslessarodrigues/LP-Codes/blob/master/input.html).
+
+### Imagens
+
+Para desenhar imagens, chamamos a função `context.drawImage(imagem, posicaoX, posicaoY)`:
+```javascript
+context.drawImage(minhaImagem, 30, 50);
+```
+
+Nesse caso, `minhaImagem` é uma veriável que representa a imagem que estamos desenhando.
+Para o programa saber qual imagem desenhar, nós a carregamos uma vez no código, assim:
+```javascript
+var minhaImagem = new Image();
+minhaImagem.src = "imagens/uma_imagem_qualquer.png";
+```
+
+Repare que ali estamos carregando uma imagem chamada `uma_imagem_qualquer.png` que se encontra dentro da pasta `imagens`.
+Então, se você mover essa imagem para outro lugar, lembre-s de atualizar o código para o programa continuar sabendo onde ela está.
+
+### Funções
+
+Uma função é um código que pode ser repetido quando quisermos. É comparável a um vídeo onde gravamos algo que aconteceu uma vez e,
+depois, podemos dar play quantas vezes quisermos.
+
+Exemplo:
+```javascript
+// Declaração da função (assim como variável, funções precisam ser declaradas)
+// Isso aqui é equivalente ao "gravar um vídeo"
+function desenhaRetangulo()
+{
+  context.fillRect( 10, 10, 80, 80 );
+  // podem ter mais códigos aqui também
+}
+
+// Aqui é onde a gente chama a função e todo o código que estava dentro dela
+// é executado como se fosse copiar e colar
+// Isso aqui é equivalente ao "dar play em um vídeo"
+desenhaRetangulo();
+```
+
+Funções podem também receber valores para que, cada vez que for chamada, fazer algo um pouquinho diferente.
+
+Exemplo:
+```javascript
+// Agora, onde o retângulo aparece depende do valor que passamos pra nossa função
+function desenhaRetangulo( posicaoX, posicaoY )
+{
+  context.fillRect( posicaoX, posicaoY, 80, 80 );
+}
+
+// Aqui são duas chamadas à mesma função. Porém, cada chamada irá desenhar o
+// retângulo em posições diferentes porque estamos passando valores diferentes!
+desenhaRetangulo( 0, 0 );
+desenhaRetangulo( 100, 75 );
+```
+
+Se você reparar bem, poderá ver que já vimos funções anteriormente. Afinal, nosso código de desenhar _coisas_
+no canvas **é uma função**!
+
+### Se organizando pra fazer um JOGO
+
+Até agora vimos códigos simples de javascript. Aí, quando partirmos para fazer um jogo, a coisa pode sair de
+controle se a gente não tomar cuidado. Um código mal organizado pode dificultar (muito) achar bug ou fazer
+alterações.
+
+Por isso, aqui vai uma sugestão de como organizar tudinho e não se perder quando estiver fazendo seu jogo em
+javascript: [código base de jogo](game.html).
+
+**IMPORTANTE**
+Não se esqueça que um jogo envolve imagens (pra ficar bonito né). Então esteja certo de que está baixando também
+a pasta com as imagens do jogo!
+
