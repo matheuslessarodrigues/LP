@@ -186,7 +186,7 @@ function onKeyDown( e )
 
 Exemplo completo [aqui](https://github.com/matheuslessarodrigues/LP/blob/master/input.html).
 
-### Imagens
+### imagens
 
 Para desenhar imagens, chamamos a função `context.drawImage(imagem, posicaoX, posicaoY)`:
 ```javascript
@@ -245,7 +245,7 @@ desenhaRetangulo( 100, 75 );
 Se você reparar bem, poderá ver que já vimos funções anteriormente. Afinal, nosso código de desenhar _coisas_
 no canvas **é uma função**!
 
-### Se organizando pra fazer um JOGO
+### se organizando pra fazer um jogo (SHAZAM!)
 
 Até agora vimos códigos simples de javascript. Aí, quando partirmos para fazer um jogo, a coisa pode sair de
 controle se a gente não tomar cuidado. Um código mal organizado pode dificultar (muito) achar bug ou fazer
