@@ -1,5 +1,7 @@
 # Protótipo Pong Loko
 
+## ENTREGA [AQUI](https://goo.gl/forms/7fLz8eimy3XEdEJp2)
+
 ## Valendo 2.0 pts
 
 Um protótipo super simples do jogo pong.
@@ -27,22 +29,22 @@ Fazer o círculo rebater nas bordas da tela.
 - 'A': `65`
   - exemplo:
   ```javascript
-  `if (e.keyCode == 65) // A`
+  if (e.keyCode == 65) // A
   ```
 - 'L': `76`
   - exemplo:
   ```javascript
-  `if (e.keyCode == 76) // L`
+  if (e.keyCode == 76) // L
   ```
 - 'O': `79`
   - exemplo:
   ```javascript
-  `if (e.keyCode == 79) // O`
+  if (e.keyCode == 79) // O
   ```
 - 'Q': `81`
   - exemplo:
   ```javascript
-  `if (e.keyCode == 81) // Q`
+  if (e.keyCode == 81) // Q
   ```
 
 ## Links Bacanas e Colas
