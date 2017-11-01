@@ -1,4 +1,4 @@
-# LP
+# lessa.codes/LP
 Scripts feitos em LP 1003
 
 ## Avaliações
