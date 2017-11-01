@@ -200,7 +200,8 @@ var minhaImagem = new Image();
 minhaImagem.src = "imagens/uma_imagem_qualquer.png";
 ```
 
-Repare que ali estamos carregando uma imagem chamada `uma_imagem_qualquer.png` que se encontra dentro da pasta `imagens`.
+Repare que ali estamos carregando uma imagem chamada `uma_imagem_qualquer.png` que se encontra dentro da pasta `imagens`. Importante
+reparar que essa pasta `imagens` é relativa a onde está seu arquivo html. Ou seja, a pasta deve estar ao lado de seu arquivo html.
 Então, se você mover essa imagem para outro lugar, lembre-s de atualizar o código para o programa continuar sabendo onde ela está.
 
 Exemplo completo [aqui](https://github.com/matheuslessarodrigues/LP/blob/master/imagem.html).
