@@ -186,6 +186,18 @@ function onKeyDown( e )
 
 Exemplo completo [aqui](https://github.com/matheuslessarodrigues/LP/blob/master/input.html).
 
+Alguns códigos de input:
+- `setinha pra esquerda`: `event.keyCode == 37`
+- `setinha pra cima`: `event.keyCode == 38`
+- `setinha pra direita`: `event.keyCode == 39`
+- `setinha pra baixo`: `event.keyCode == 40`
+- `A`: `65`
+- `B`: `66`
+- `C`: `67`
+- etc
+
+Site pra descobrir qualquer _keycode_: [keycode.info](http://keycode.info/)
+
 ### imagens
 
 Para desenhar imagens, chamamos a função `context.drawImage(imagem, posicaoX, posicaoY)`:
