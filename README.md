@@ -280,7 +280,7 @@ Quando queremos coisas aleatórias em nosso programa, usamos a função `Math.ra
 
 Exemplo:
 ```javascript
-var posicaoX = Mathf.random(); // posicaoX varia entre 0.0 e 1.0
+var posicaoX = Math.random(); // posicaoX varia entre 0.0 e 1.0
 context.fillRect( posicaoX, 100, 80, 80 );
 ```
 
@@ -290,7 +290,7 @@ pelo intervalo desejado.
 
 Exemplo:
 ```javascript
-var posicaoX = 100 * Mathf.random(); // posicaoX varia entre 0.0 e 100.0!!
+var posicaoX = 100 * Math.random(); // posicaoX varia entre 0.0 e 100.0!!
 context.fillRect( posicaoX, 100, 80, 80 );
 ```
 
@@ -299,7 +299,7 @@ maior que zero, fazemos uma adição.
 
 Exemplo:
 ```javascript
-var posicaoX = 100 * Mathf.random() + 50; // posicaoX varia entre 50.0 e 150.0!!
+var posicaoX = 100 * Math.random() + 50; // posicaoX varia entre 50.0 e 150.0!!
 context.fillRect( posicaoX, 100, 80, 80 );
 ```
 
