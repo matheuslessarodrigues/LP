@@ -1,4 +1,4 @@
-# B4 AV2
+# B4 AV2 (3pts)
 
 ## Entregar [aqui](https://goo.gl/forms/Cr6SfNMveSTymwTH2)
 
@@ -23,8 +23,8 @@ Quando esta, por sua vez, volta ao início, a imagem desenhada é a 3. E assim p
 - Gota de chuva caindo
 - Gota começa em lugar aleatório toda vez que começa o jogo
 - Quando gota toca o chão, volta pro início
-- Quando volta pro início, muda para uma outra posição aleatória
-- Quando volta pro início, muda a imagem de gota desenhada
+- Quando volta pro início, muda para uma outra posição aleatória (até aqui 2pts)
+- Quando volta pro início, muda a imagem de gota desenhada (até aqui 3pts)
 
 ## Extras
 
