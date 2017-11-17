@@ -6,7 +6,8 @@ Scripts feitos em LP 1003
   - ~~[AV2](b3-av2.md)~~
   - ~~[AV3](b3-av3.md)~~
 - B4
-  - [AV1](b4-av1.md)
+  - ~~[AV1](b4-av1.md)~~
+  - [AV2](b4-av2.md)
 
 ## Conceitos Bacanas
 
