@@ -30,8 +30,14 @@ Quando esta, por sua vez, volta ao início, a imagem desenhada é a 3. E assim p
 ## Extras
 
 - Mais de uma gota de chuva ao mesmo tempo
+- A gota vai caindo mais rápido cada vez que volta ao topo
 
 ## Logística
 
 - Grupos de 2 a 4 humaninhos
 - Entregar [aqui](https://goo.gl/forms/Cr6SfNMveSTymwTH2)
+
+## Cola
+
+- Tudo o que aprendemos até agora: [link](lessa.codes/LP)
+- Desenho de formas básicas (incluindo texto): [link](https://github.com/matheuslessarodrigues/LP/blob/master/desenhos-base.html)
