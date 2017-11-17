@@ -24,7 +24,8 @@ Quando esta, por sua vez, volta ao início, a imagem desenhada é a 3. E assim p
 - Gota começa em lugar aleatório toda vez que começa o jogo
 - Quando gota toca o chão, volta pro início
 - Quando volta pro início, muda para uma outra posição aleatória (até aqui 2pts)
-- Quando volta pro início, muda a imagem de gota desenhada (até aqui 3pts)
+- Quando volta pro início, muda a imagem de gota desenhada (até aqui 2.5pts)
+- Mostrar um contador de gotas no canto superior direito (até aqui 3pts)
 
 ## Extras
 
