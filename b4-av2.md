@@ -1,5 +1,7 @@
 # B4 AV2
 
+## Entregar [aqui](https://goo.gl/forms/Cr6SfNMveSTymwTH2)
+
 Simulador de chuva.
 
 Uma gota de chuva fica caindo do topo da tela indefinidamente.
@@ -31,4 +33,4 @@ Quando esta, por sua vez, volta ao início, a imagem desenhada é a 3. E assim p
 ## Logística
 
 - Grupos de 2 a 4 humaninhos
-- Entregar [aqui]()
+- Entregar [aqui](https://goo.gl/forms/Cr6SfNMveSTymwTH2)
