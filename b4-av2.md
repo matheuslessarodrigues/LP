@@ -4,6 +4,13 @@ Simulador de chuva.
 
 Uma gota de chuva fica caindo do topo da tela indefinidamente.
 
+## Imagens
+
+- Imagem de gota 1 ([link](imagens/rain1.png))
+- Imagem de gota 2 ([link](imagens/rain2.png))
+- Imagem de gota 3 ([link](imagens/rain3.png))
+- Imagem de gota 4 ([link](imagens/rain4.png))
+
 ## Etapas
 
 - Desenhar uma gota de chuva
