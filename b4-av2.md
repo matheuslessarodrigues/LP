@@ -39,5 +39,5 @@ Quando esta, por sua vez, volta ao início, a imagem desenhada é a 3. E assim p
 
 ## Cola
 
-- Tudo o que aprendemos até agora: [link](lessa.codes/LP)
+- Tudo o que aprendemos até agora: [link](https://lessa.codes/LP)
 - Desenho de formas básicas (incluindo texto): [link](https://github.com/matheuslessarodrigues/LP/blob/master/desenhos-base.html)
