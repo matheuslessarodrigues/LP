@@ -272,3 +272,46 @@ javascript: [CÓDIGO BASE PRA FAZER UM JOGO](https://github.com/matheuslessarodr
 Não se esqueça que um jogo envolve imagens (pra ficar bonito né). Então esteja certo de que está baixando também
 a pasta com as imagens do jogo!
 
+### random!
+
+Quando queremos coisas aleatórias em nosso programa, usamos a função `Math.random()`. Ela dá pra gente um valor entre
+`0.0` e `1.0`. Se chamarmos essa função várias vezes seguidas, ela sempre terá um valor diferente (entre `0.0` e `1.0`).
+
+Exemplo:
+```javascript
+var posicaoX = Mathf.random(); // posicaoX varia entre 0.0 e 1.0
+context.fillRect( posicaoX, 100, 80, 80 );
+```
+
+Nesse exemplo, cada vez que abrirmos nosso html, o retângulo estará em um lugar diferente, **porém a diferença entre
+posições será tão pequena que é imperceptível**. Por causa disso, geralmente multiplicamos o resultado de `Math.random()`
+pelo intervalo desejado.
+
+Exemplo:
+```javascript
+var posicaoX = 100 * Mathf.random(); // posicaoX varia entre 0.0 e 100.0!!
+context.fillRect( posicaoX, 100, 80, 80 );
+```
+
+Agora a posição de nosso retângulo fica entre `0.0` e `100.0`. Por fim, se quisermos que o valor aleatório comece em um valor
+maior que zero, fazemos uma adição.
+
+Exemplo:
+```javascript
+var posicaoX = 100 * Mathf.random() + 50; // posicaoX varia entre 50.0 e 150.0!!
+context.fillRect( posicaoX, 100, 80, 80 );
+```
+
+Podemos inclusive fazer uma função pra facilitar nossa vida:
+```javascript
+function rand(min, max)
+{
+  return Math.random() * (max - min) + min;
+}
+```
+
+E então podemos utilizá-la dessa forma:
+```javascript
+var posicaoX = rand(50, 100); // posicaoX varia entre 50.0 e 100.0!!
+context.fillRect( posicaoX, 100, 80, 80 );
+```
