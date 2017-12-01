@@ -1,6 +1,6 @@
 # lessa.codes/LP/b4-av3 (4pts)
 
-### [Entregar aqui]()
+### [Entregar aqui](https://goo.gl/forms/fn0lDXkxBAHj871U2)
 
 Mario atirador (quase um CS).
 
@@ -21,7 +21,7 @@ de atirar a próxima.
 ## Logística
 
 - Grupos de 2 a 4 humaninhos
-- Entregar [aqui]()
+- Entregar [aqui](https://goo.gl/forms/fn0lDXkxBAHj871U2)
 
 ## Cola
 
